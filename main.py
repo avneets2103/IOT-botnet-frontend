@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-import sklearn
-import sklearn.svm
 
 nav = st.sidebar.selectbox("What do you wanna do? ", options=['Use the model'])
 if nav == 'Use the model':
